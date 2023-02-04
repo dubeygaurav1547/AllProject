@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T13:48:37 IST" name="CRM Project" finished-at="2022-10-12T13:48:37 IST" duration-ms="110">
+    <groups>
+      <group name="regression">
+        <method signature="VerifyAccountSearchFunctionality.ts002verifyAccountSearchNowIsWrittenOnbtn()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" name="ts002verifyAccountSearchNowIsWrittenOnbtn" class="com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="VerifyAccountSearchFunctionality.ts001verifyAccountSearchTakeData()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" name="ts001verifyAccountSearchTakeData" class="com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-10-12T13:48:37 IST" name="On chrome" finished-at="2022-10-12T13:48:37 IST" duration-ms="110">
+      <class name="com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality">
+        <test-method is-config="true" signature="loadReport()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="loadReport" finished-at="2022-10-12T13:48:37 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadReport -->
+        <test-method is-config="true" signature="loadReport1(java.lang.String)[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="loadReport1" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717824" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method loadReport1 but has not been marked @Optional or defined
+in C:\Users\Akash Dubey\Desktop\FrameWorkPractise\POMWithReporting\src\pr.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method loadReport1 but has not been marked @Optional or defined
+in C:\Users\Akash Dubey\Desktop\FrameWorkPractise\POMWithReporting\src\pr.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadReport1 -->
+        <test-method is-config="true" signature="launchBrowserAndHitURL()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="launchBrowserAndHitURL" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717873" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserAndHitURL -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="login" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717892" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ts001verifyAccountSearchTakeData()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="ts001verifyAccountSearchTakeData" finished-at="2022-10-12T13:48:37 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method loadReport1 but has not been marked @Optional or defined
+in C:\Users\Akash Dubey\Desktop\FrameWorkPractise\POMWithReporting\src\pr.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method loadReport1 but has not been marked @Optional or defined
+in C:\Users\Akash Dubey\Desktop\FrameWorkPractise\POMWithReporting\src\pr.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts001verifyAccountSearchTakeData -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="logOut" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717901" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login(java.lang.reflect.Method)[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="login" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717905" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="ts002verifyAccountSearchNowIsWrittenOnbtn()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="ts002verifyAccountSearchNowIsWrittenOnbtn" finished-at="2022-10-12T13:48:37 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method loadReport1 but has not been marked @Optional or defined
+in C:\Users\Akash Dubey\Desktop\FrameWorkPractise\POMWithReporting\src\pr.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method loadReport1 but has not been marked @Optional or defined
+in C:\Users\Akash Dubey\Desktop\FrameWorkPractise\POMWithReporting\src\pr.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts002verifyAccountSearchNowIsWrittenOnbtn -->
+        <test-method is-config="true" signature="logOut(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="logOut" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717914" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717920" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:37 IST" name="flushReport" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562717926" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method is-config="true" signature="getReport()[pri:0, instance:com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality@9353778]" started-at="2022-10-12T13:48:38 IST" name="getReport" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665562718098" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+      </class> <!-- com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality -->
+    </test> <!-- On chrome -->
+  </suite> <!-- CRM Project -->
+</testng-results>

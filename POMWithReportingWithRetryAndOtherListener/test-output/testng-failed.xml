@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [CRM Project]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="com.daphnish.CRM.testCaseLayer.ListenerCRM"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="On chrome(failed)" verbose="2">
+    <classes>
+      <class name="com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality">
+        <methods>
+          <include name="loadReport"/>
+          <include name="closeBrowser"/>
+          <include name="ts001verifyAccountSearchTakeData"/>
+          <include name="ts002verifyAccountSearchNowIsWrittenOnbtn"/>
+          <include name="getReport"/>
+          <include name="flushReport"/>
+          <include name="loadReport1"/>
+          <include name="logOut"/>
+          <include name="launchBrowserAndHitURL"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.daphnish.CRM.testCaseLayer.VerifyAccountSearchFunctionality -->
+    </classes>
+  </test> <!-- On chrome(failed) -->
+</suite> <!-- Failed suite [CRM Project] -->
