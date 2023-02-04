@@ -229,6 +229,8 @@ public class WebDriverUtil {
 		driver.switchTo().frame(NameOrId);
 
 	}
+public void webDriverWait(){
+}
 
 	/*Purpose-For Handling Frame
 	 * Parameter Type-String
