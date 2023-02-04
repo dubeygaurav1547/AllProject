@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-30T13:48:35 IST" name="Vtiger CRM Project" finished-at="2022-08-30T13:49:37 IST" duration-ms="61575">
+    <groups>
+      <group name="regression">
+        <method signature="TestCases.tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" name="tsHomePageAboutUs" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestCases.tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" name="tsAccount" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-08-30T13:48:35 IST" name="Testing On chrome " finished-at="2022-08-30T13:49:37 IST" duration-ms="61575">
+      <class name="org.crm.vtiger.evs.beta.tsLayer.TestCases">
+        <test-method is-config="true" signature="report()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:48:35 IST" name="report" finished-at="2022-08-30T13:48:35 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="tsLaunchBrowser(java.lang.String)[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:48:35 IST" name="tsLaunchBrowser" finished-at="2022-08-30T13:48:43 IST" duration-ms="7496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsLaunchBrowser -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:48:43 IST" name="tsloginPage" finished-at="2022-08-30T13:48:47 IST" duration-ms="4672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:48:47 IST" name="tsAccount" finished-at="2022-08-30T13:48:56 IST" duration-ms="8600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsAccount -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:48:56 IST" name="tslogout" finished-at="2022-08-30T13:48:58 IST" duration-ms="1749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:48:58 IST" name="tsloginPage" finished-at="2022-08-30T13:49:02 IST" duration-ms="3915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:49:02 IST" name="tsHomePageAboutUs" finished-at="2022-08-30T13:49:06 IST" duration-ms="4652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsHomePageAboutUs -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:49:06 IST" name="tslogout" finished-at="2022-08-30T13:49:08 IST" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:49:08 IST" name="tsloginPage" finished-at="2022-08-30T13:49:12 IST" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:49:12 IST" name="tsInvoiceCreation" finished-at="2022-08-30T13:49:34 IST" duration-ms="21652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsInvoiceCreation -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:49:34 IST" name="tslogout" finished-at="2022-08-30T13:49:36 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsCloseBrowser()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:49:36 IST" name="tsCloseBrowser" finished-at="2022-08-30T13:49:37 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsCloseBrowser -->
+        <test-method is-config="true" signature="report1()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@49d904ec]" started-at="2022-08-30T13:49:37 IST" name="report1" finished-at="2022-08-30T13:49:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report1 -->
+      </class> <!-- org.crm.vtiger.evs.beta.tsLayer.TestCases -->
+    </test> <!-- Testing On chrome  -->
+  </suite> <!-- Vtiger CRM Project -->
+</testng-results>

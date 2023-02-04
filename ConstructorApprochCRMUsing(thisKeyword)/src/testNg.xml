@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vtiger CRM Project" verbose="2" >
+  <test  name="Testing On chrome" >
+  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="userName" value="admin"></parameter>
+  <parameter name="pwd" value="admin"></parameter>
+    <classes>
+      <class name="org.crm.vtiger.evs.beta.tsLayer.TestCases">
+      <methods>
+      <exclude name="tsMarketingCampaignCreation"/>
+      </methods>
+      </class >
+    </classes>
+  </test>
+  
+  <test name="Testing on Firefox Browser">
+  <parameter name="browser" value="Firefox"></parameter>
+  <parameter name="userName" value="admin"></parameter>
+  <parameter name="pwd" value="admin"></parameter>
+  <packages>
+  <package name="org.crm.vtiger.evs.beta.tsLayer"></package>
+  </packages>
+  </test>
+  <test name="smoke group run">
+  <parameter name="browser" value="Firefox"></parameter>
+  <parameter name="userName" value="admin"></parameter>
+  <groups>
+  <run>
+  <include name="smoke"/>
+  <exclude name="regression"/>
+  </run>
+  </groups>
+  </test>
+</suite> <!-- Default suite -->
+            

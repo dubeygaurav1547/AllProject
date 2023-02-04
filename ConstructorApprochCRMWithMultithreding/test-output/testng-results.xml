@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="14" passed="0" failed="0" skipped="10">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T13:16:26 IST" name="Vtiger CRM Project" finished-at="2022-10-12T13:19:39 IST" duration-ms="193294">
+    <groups>
+      <group name="regression">
+        <method signature="TestCases.tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" name="tsHomePageAboutUs" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" name="tsHomePageAboutUs" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" name="tsHomePageAboutUs" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestCases.tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" name="tsAccount" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" name="tsAccount" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" name="tsAccount" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" name="tsInvoiceCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+        <method signature="TestCases.tsMarketingCampaignCreation()[pri:1, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" name="tsMarketingCampaignCreation" class="org.crm.vtiger.evs.beta.tsLayer.TestCases"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-10-12T13:16:26 IST" name="smoke group run" finished-at="2022-10-12T13:16:26 IST" duration-ms="25">
+    </test> <!-- smoke group run -->
+    <test started-at="2022-10-12T13:16:26 IST" name="Testing On Edge" finished-at="2022-10-12T13:16:26 IST" duration-ms="430">
+      <class name="org.crm.vtiger.evs.beta.tsLayer.TestCases">
+        <test-method is-config="true" signature="report()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="report" finished-at="2022-10-12T13:16:26 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="tsLaunchBrowser(java.lang.String)[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsLaunchBrowser" finished-at="2022-10-12T13:16:26 IST" duration-ms="43" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:81)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsLaunchBrowser -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560786280" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsAccount" finished-at="2022-10-12T13:16:26 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:81)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsAccount -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560786310" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560786355" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsHomePageAboutUs" finished-at="2022-10-12T13:16:26 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:81)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsHomePageAboutUs -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560786420" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560786436" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsInvoiceCreation" finished-at="2022-10-12T13:16:26 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driver" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:81)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsInvoiceCreation -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560786461" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsCloseBrowser()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="tsCloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560786490" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsCloseBrowser -->
+        <test-method is-config="true" signature="report1()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@2f7298b]" started-at="2022-10-12T13:16:26 IST" name="report1" finished-at="2022-10-12T13:16:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report1 -->
+      </class> <!-- org.crm.vtiger.evs.beta.tsLayer.TestCases -->
+    </test> <!-- Testing On Edge -->
+    <test started-at="2022-10-12T13:16:26 IST" name="Testing On chrome" finished-at="2022-10-12T13:16:34 IST" duration-ms="8502">
+      <class name="org.crm.vtiger.evs.beta.tsLayer.TestCases">
+        <test-method is-config="true" signature="report()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:26 IST" name="report" finished-at="2022-10-12T13:16:26 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="tsLaunchBrowser(java.lang.String)[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:26 IST" name="tsLaunchBrowser" finished-at="2022-10-12T13:16:34 IST" duration-ms="8299" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:74)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsLaunchBrowser -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560794453" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tsAccount" finished-at="2022-10-12T13:16:34 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:74)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsAccount -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560794463" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560794465" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tsHomePageAboutUs" finished-at="2022-10-12T13:16:34 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:74)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsHomePageAboutUs -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560794538" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560794553" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tsInvoiceCreation" finished-at="2022-10-12T13:16:34 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.lang.ThreadLocal.set(Object)" because "org.crm.vtiger.evs.beta.Util.WebDriverUtil.driverManager" is null
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:74)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsInvoiceCreation -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560794572" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsCloseBrowser()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="tsCloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560794574" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsCloseBrowser -->
+        <test-method is-config="true" signature="report1()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@470f1802]" started-at="2022-10-12T13:16:34 IST" name="report1" finished-at="2022-10-12T13:16:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report1 -->
+      </class> <!-- org.crm.vtiger.evs.beta.tsLayer.TestCases -->
+    </test> <!-- Testing On chrome -->
+    <test started-at="2022-10-12T13:16:26 IST" name="Testing on Firefox Browser" finished-at="2022-10-12T13:19:39 IST" duration-ms="193294">
+      <class name="org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer">
+        <test-method is-config="true" signature="report()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer@6eda5c9]" started-at="2022-10-12T13:16:26 IST" name="report" finished-at="2022-10-12T13:16:26 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="report1()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer@6eda5c9]" started-at="2022-10-12T13:19:39 IST" name="report1" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979365" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report1 -->
+      </class> <!-- org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer -->
+      <class name="org.crm.vtiger.evs.beta.tsLayer.TestCases">
+        <test-method is-config="true" signature="tsLaunchBrowser(java.lang.String)[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:16:26 IST" name="tsLaunchBrowser" finished-at="2022-10-12T13:19:39 IST" duration-ms="193065" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:584)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:126)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:78)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+... 26 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsLaunchBrowser -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979240" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsAccount()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsAccount" finished-at="2022-10-12T13:19:39 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:584)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:126)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:78)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+... 26 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsAccount -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979269" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979281" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsHomePageAboutUs()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsHomePageAboutUs" finished-at="2022-10-12T13:19:39 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:584)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:126)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:78)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+... 26 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsHomePageAboutUs -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979307" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979315" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsMarketingCampaignCreation()[pri:1, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsMarketingCampaignCreation" finished-at="2022-10-12T13:19:39 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:584)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:126)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:78)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+... 26 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsMarketingCampaignCreation -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979331" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsloginPage" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979338" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="tsInvoiceCreation()[pri:2, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsInvoiceCreation" finished-at="2022-10-12T13:19:39 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.2.0', revision: '86eb611648'
+System info: host: 'DESKTOP-M9G8GLA', ip: '192.168.43.169', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:584)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:163)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:126)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:114)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+at org.crm.vtiger.evs.beta.Util.WebDriverUtil.launchBroWser(WebDriverUtil.java:78)
+at org.crm.vtiger.evs.beta.tsLayer.BaseTestCaseLayer.tsLaunchBrowser(BaseTestCaseLayer.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:76)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:98)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:120)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:102)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:566)
+... 26 more
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 39 more
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64668 after 180000 ms
+at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43)
+at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715)
+at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34)
+at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703)
+at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790)
+at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503)
+at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsInvoiceCreation -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tslogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979353" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsCloseBrowser()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.TestCases@55b7a4e0]" started-at="2022-10-12T13:19:39 IST" name="tsCloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1665560979357" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsCloseBrowser -->
+      </class> <!-- org.crm.vtiger.evs.beta.tsLayer.TestCases -->
+    </test> <!-- Testing on Firefox Browser -->
+  </suite> <!-- Vtiger CRM Project -->
+</testng-results>

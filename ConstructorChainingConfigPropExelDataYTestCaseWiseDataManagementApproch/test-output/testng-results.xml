@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-10T09:27:50 IST" name="Vtiger CRM Project" finished-at="2022-10-10T09:28:04 IST" duration-ms="13950">
+    <groups>
+    </groups>
+    <test started-at="2022-10-10T09:27:50 IST" name="Testing on Chrome Browser" finished-at="2022-10-10T09:28:04 IST" duration-ms="13950">
+      <class name="org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases">
+        <test-method is-config="true" signature="report()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases@57c758ac]" started-at="2022-10-10T09:27:50 IST" name="report" finished-at="2022-10-10T09:27:50 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method is-config="true" signature="tsLaunchBrowser(java.lang.String)[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases@57c758ac]" started-at="2022-10-10T09:27:50 IST" name="tsLaunchBrowser" finished-at="2022-10-10T09:27:54 IST" duration-ms="4170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsLaunchBrowser -->
+        <test-method is-config="true" signature="tsloginPage()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases@57c758ac]" started-at="2022-10-10T09:27:54 IST" name="tsloginPage" finished-at="2022-10-10T09:27:57 IST" duration-ms="3524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsloginPage -->
+        <test-method signature="ts001varifySettingModuleManagerCheakboxes()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases@57c758ac]" started-at="2022-10-10T09:27:57 IST" name="ts001varifySettingModuleManagerCheakboxes" finished-at="2022-10-10T09:28:01 IST" duration-ms="4052" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases.ts001varifySettingModuleManagerCheakboxes(Setting_TestCases.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ts001varifySettingModuleManagerCheakboxes -->
+        <test-method is-config="true" signature="tslogout()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases@57c758ac]" started-at="2022-10-10T09:28:02 IST" name="tslogout" finished-at="2022-10-10T09:28:03 IST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tslogout -->
+        <test-method is-config="true" signature="tsCloseBrowser()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases@57c758ac]" started-at="2022-10-10T09:28:03 IST" name="tsCloseBrowser" finished-at="2022-10-10T09:28:04 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsCloseBrowser -->
+        <test-method is-config="true" signature="report1()[pri:0, instance:org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases@57c758ac]" started-at="2022-10-10T09:28:04 IST" name="report1" finished-at="2022-10-10T09:28:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report1 -->
+      </class> <!-- org.crm.vtiger.evs.beta.tsLayer.Setting_TestCases -->
+    </test> <!-- Testing on Chrome Browser -->
+  </suite> <!-- Vtiger CRM Project -->
+</testng-results>
