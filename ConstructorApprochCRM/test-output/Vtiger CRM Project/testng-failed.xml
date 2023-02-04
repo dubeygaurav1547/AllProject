@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Vtiger CRM Project]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="Testing on Firefox Browser(failed)" verbose="2">
+    <parameter name="password" value="admin"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="userName" value="admin"/>
+    <classes>
+      <class name="org.crm.vtiger.evs.beta.tsLayer.TestCases">
+        <methods>
+          <include name="tslogout"/>
+          <include name="tsLaunchBrowser"/>
+          <include name="tsHomePageAboutUs"/>
+          <include name="tsCloseBrowser"/>
+          <include name="report1"/>
+          <include name="tsMarketingCampaignCreation"/>
+          <include name="tsAccount"/>
+          <include name="tsInvoiceCreation"/>
+          <include name="report"/>
+          <include name="tsloginPage"/>
+        </methods>
+      </class> <!-- org.crm.vtiger.evs.beta.tsLayer.TestCases -->
+    </classes>
+  </test> <!-- Testing on Firefox Browser(failed) -->
+</suite> <!-- Failed suite [Vtiger CRM Project] -->
